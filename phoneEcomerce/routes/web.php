@@ -12,3 +12,8 @@
 */
 
 Route::get('/',"ClientController@index");
+Route::get('/cart','ClientController@getCart');
+Route::get('/add-to-cart/{id}','ClientController@addToCart');
+Route::get('/remove/{id}','ClientController@removeCart');
+
+Route::get('/product-detail/{id}','ClientController@getProductDetail');

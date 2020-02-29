@@ -18,8 +18,8 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->integer('brand_id');
             $table->integer('provider_id');
-            $table->double('sale');
-            $table->string('price');
+            $table->double('promotion_price');
+            $table->double('price');
             $table->string('quantity');
             $table->string("image");
             $table->timestamps();
