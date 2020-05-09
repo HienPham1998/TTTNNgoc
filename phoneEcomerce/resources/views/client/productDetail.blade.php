@@ -29,6 +29,15 @@
                                 <a href="#" tabindex="0"><i class="zmdi zmdi-star-outline"></i></a>
                                 <span class="text-black-5">( 27 Rating )</span>
                             </div>
+                            <p>Screen: {{$product_detail->screen}}</p>
+                            <p>Operation system: {{$product_detail->operation_system}}</p>
+                            <p>Rear camera: {{$product_detail->operation_system}}</p>
+                            <p>Front camera: {{$product_detail->front_camera}}</p>
+                            <p>CPU: {{$product_detail->cpu}}</p>
+                            <p>Ram: {{$product_detail->ram}}</p>
+                            <p>Rom: {{$product_detail->rom}}</p>
+                            <p>Sim card: {{$product_detail->sim_card}}</p>
+                            <p>Pin capacity: {{$product_detail->pin_capacity}}</p>
                         </div>
                         <!-- hr -->
                         <hr>
